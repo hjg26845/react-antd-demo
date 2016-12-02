@@ -2,13 +2,15 @@ var webpack = require('webpack')
 
 module.exports = {
     entry: {
-        main: './src/main.js'
+        main: './src/main1.js'
+        //main: './src/main.js'
         //vendors: ['react','jquery']
     },
     output: {
         path: './dist',
         publicPath: 'dist/',
-        filename: 'build.js'
+        //filename: 'build.js'
+        filename: 'build1.js'
     },
     module: {
         loaders: [
